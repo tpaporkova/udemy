@@ -26,5 +26,3 @@ popular = sort_popular[:10]            # 10 most popular courses
 x = np.arange(1, 11)
 plt.bar(x, popular['num_subscribers'])
 plt.show()
-
-# comment for git
