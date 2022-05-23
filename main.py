@@ -3,6 +3,7 @@ this program charts the 10 cheapest and 10 most popular courses
 '''
 
 # pylint C:\Users\Татьяна\python\зачёт\udemy.py
+# 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
 
 import pandas as pd
 import numpy as np
@@ -26,5 +27,3 @@ popular = sort_popular[:10]            # 10 most popular courses
 x = np.arange(1, 11)
 plt.bar(x, popular['num_subscribers'])
 plt.show()
-
-# hello git
