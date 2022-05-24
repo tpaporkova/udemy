@@ -16,8 +16,8 @@ while t['price'][i] == 0:
     i += 1                             # last unpaid course index
 
 paid = t[i:].reset_index(drop=True)    # only paid courses
-cheap = paid[:10]                      # 10 cheapest courses
-x = np.arange(1, 11)
+cheap = paid[:20]                      # 10 cheapest courses
+x = np.arange(1, 21)
 plt.title("10 самых дешёвых курсов")
 plt.bar(x, cheap['price'])
 plt.show()
